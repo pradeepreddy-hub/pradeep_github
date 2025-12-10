@@ -24,7 +24,7 @@ jobs:
     # 3. Install dependencies
       - name: install dependencies
         run: npm install
-        working-directory: .github/package.json
+        working-directory: .
 
     # 4. Run tests
       - name: Run tests
